@@ -1,0 +1,4 @@
+
+let sec=1500,run=false,intv;
+function draw(){let m=Math.floor(sec/60),s=sec%60;$("#timer").textContent=`${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`}
+document.addEventListener("DOMContentLoaded",()=>{$("#start")?.addEventListener("click",()=>{if(run)return;run=true;intv=setInterval(()=>{sec--;if(sec<0){sec=1500;run=false;clearInterval(intv);toast("انتهت الجلسة")}draw()},1000)});$("#pause")?.addEventListener("click",()=>{run=false;clearInterval(intv)});$("#reset")?.addEventListener("click",()=>{run=false;clearInterval(intv);sec=1500;draw()});draw();let sw=0,si;$("#swStart")?.addEventListener("click",()=>{if(si)return;let st=Date.now()-sw;si=setInterval(()=>{$("#sw").textContent=((sw=Date.now()-st)/1000).toFixed(2)+"s"},30)});$("#swPause")?.addEventListener("click",()=>{clearInterval(si);si=null});$("#swReset")?.addEventListener("click",()=>{clearInterval(si);si=null;sw=0;$("#sw").textContent="0.00s"})})

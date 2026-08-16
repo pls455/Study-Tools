@@ -1,0 +1,2 @@
+
+document.addEventListener("DOMContentLoaded",()=>{$("#weak")?.addEventListener("click",()=>{let a=store.get("weakness",[]);a.push({s:$("#ws").value,u:$("#wu").value,l:$("#wl").value});store.set("weakness",a);$("#weakList").innerHTML=a.map(x=>`<div class=result>${x.s} · ${x.u} · ${x.l}</div>`).join("")});$("#plan")?.addEventListener("click",()=>{let s=$("#subs").value.split(",").map(x=>x.trim()).filter(Boolean),h=+$("#hours").value||2;$("#planResult").innerHTML=s.map(x=>`<div class=result>${x}: ${Math.round(h*60/s.length)} دقيقة</div>`).join("")})})

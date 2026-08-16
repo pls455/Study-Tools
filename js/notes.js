@@ -1,0 +1,2 @@
+
+function drawN(){let a=store.get("notes",[]);$("#notes").innerHTML=a.map((x,i)=>`<div class="card"><h3>${x.t}</h3><p>${x.b.replaceAll("<","&lt;")}</p><button class="btn" onclick="delN(${i})">حذف</button></div>`).join("")||"<div class='box'>لا توجد ملاحظات.</div>"}function delN(i){let a=store.get("notes",[]);a.splice(i,1);store.set("notes",a);drawN()}document.addEventListener("DOMContentLoaded",()=>{$("#addN")?.addEventListener("click",()=>{let a=store.get("notes",[]);a.unshift({t:$("#nt").value,b:$("#nb").value});store.set("notes",a);drawN()});drawN()})

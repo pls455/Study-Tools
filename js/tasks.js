@@ -1,0 +1,2 @@
+
+function drawT(){let a=store.get("tasks",[]);$("#tasks").innerHTML=a.length?a.map((x,i)=>`<div class="card"><b>${x.n}</b><p>${x.s}</p><button class="btn" onclick="delT(${i})">حذف</button></div>`).join(""):"<div class='box'>لا توجد مهام.</div>"}function delT(i){let a=store.get("tasks",[]);a.splice(i,1);store.set("tasks",a);drawT()}document.addEventListener("DOMContentLoaded",()=>{$("#addT")?.addEventListener("click",()=>{let a=store.get("tasks",[]);a.push({n:$("#tn").value,s:$("#ts").value});store.set("tasks",a);drawT()});drawT()})

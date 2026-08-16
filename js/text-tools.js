@@ -1,0 +1,2 @@
+
+document.addEventListener("DOMContentLoaded",()=>{$("#text")?.addEventListener("input",()=>{let x=$("#text").value;$("#wc").textContent=x.trim()?x.trim().split(/\s+/).length:0;$("#cc").textContent=x.length;$("#sc").textContent=(x.match(/[.!؟?]+/g)||[]).length;$("#pc").textContent=x?x.split(/\n\s*\n/).length:0});$("#clean")?.addEventListener("click",()=>$("#text").value=$("#text").value.replace(/[ \t]+/g," ").split("\n").filter(x=>x.trim()).join("\n").trim())})
