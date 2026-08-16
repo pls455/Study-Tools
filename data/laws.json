@@ -1,0 +1,17 @@
+[
+  {
+    "name": "السرعة",
+    "formula": "v=d/t",
+    "unit": "m/s"
+  },
+  {
+    "name": "القوة",
+    "formula": "F=m×a",
+    "unit": "N"
+  },
+  {
+    "name": "أوم",
+    "formula": "V=I×R",
+    "unit": "V"
+  }
+]

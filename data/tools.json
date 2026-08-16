@@ -1,0 +1,386 @@
+[
+  {
+    "id": "scientific-calculator",
+    "title": "الحاسبة العلمية",
+    "description": "حاسبة رياضيات علمية",
+    "category": "calculators",
+    "icon": "🧮",
+    "keywords": [
+      "حاسبة",
+      "رياضيات",
+      "علمية"
+    ],
+    "page": "calculators.html"
+  },
+  {
+    "id": "percentage",
+    "title": "حاسبة النسبة المئوية",
+    "description": "نسبة زيادة خصم",
+    "category": "calculators",
+    "icon": "％",
+    "keywords": [
+      "نسبة",
+      "زيادة",
+      "خصم"
+    ],
+    "page": "calculators.html"
+  },
+  {
+    "id": "average",
+    "title": "حاسبة المعدل",
+    "description": "متوسط علامات",
+    "category": "calculators",
+    "icon": "📊",
+    "keywords": [
+      "متوسط",
+      "علامات"
+    ],
+    "page": "calculators.html"
+  },
+  {
+    "id": "grades",
+    "title": "حاسبة الدرجات",
+    "description": "درجة مطلوبة",
+    "category": "calculators",
+    "icon": "🎯",
+    "keywords": [
+      "درجة",
+      "مطلوبة"
+    ],
+    "page": "calculators.html"
+  },
+  {
+    "id": "equations",
+    "title": "حل المعادلات",
+    "description": "معادلات خطية تربيعية",
+    "category": "math",
+    "icon": "＝",
+    "keywords": [
+      "معادلات",
+      "خطية",
+      "تربيعية"
+    ],
+    "page": "math.html"
+  },
+  {
+    "id": "matrices",
+    "title": "حاسبة المصفوفات",
+    "description": "مصفوفات determinant",
+    "category": "math",
+    "icon": "▦",
+    "keywords": [
+      "مصفوفات",
+      "determinant"
+    ],
+    "page": "math.html"
+  },
+  {
+    "id": "logs",
+    "title": "حاسبة اللوغاريتمات",
+    "description": "log ln",
+    "category": "math",
+    "icon": "𝑙𝑜𝑔",
+    "keywords": [
+      "log",
+      "ln"
+    ],
+    "page": "math.html"
+  },
+  {
+    "id": "trig",
+    "title": "حاسبة المثلثات",
+    "description": "sin cos tan",
+    "category": "math",
+    "icon": "△",
+    "keywords": [
+      "sin",
+      "cos",
+      "tan"
+    ],
+    "page": "math.html"
+  },
+  {
+    "id": "sequences",
+    "title": "المتتاليات",
+    "description": "متتاليات",
+    "category": "math",
+    "icon": "∑",
+    "keywords": [
+      "متتاليات"
+    ],
+    "page": "math.html"
+  },
+  {
+    "id": "probability",
+    "title": "الاحتمالات",
+    "description": "تباديل توافيق",
+    "category": "math",
+    "icon": "🎲",
+    "keywords": [
+      "تباديل",
+      "توافيق"
+    ],
+    "page": "math.html"
+  },
+  {
+    "id": "physics-laws",
+    "title": "قوانين الفيزياء",
+    "description": "حركة قوة طاقة كهرباء",
+    "category": "physics",
+    "icon": "⚛️",
+    "keywords": [
+      "حركة",
+      "قوة",
+      "طاقة",
+      "كهرباء"
+    ],
+    "page": "physics.html"
+  },
+  {
+    "id": "speed",
+    "title": "حاسبة السرعة",
+    "description": "سرعة مسافة زمن",
+    "category": "physics",
+    "icon": "🚀",
+    "keywords": [
+      "سرعة",
+      "مسافة",
+      "زمن"
+    ],
+    "page": "physics.html"
+  },
+  {
+    "id": "force",
+    "title": "حاسبة القوة",
+    "description": "قوة كتلة تسارع",
+    "category": "physics",
+    "icon": "💪",
+    "keywords": [
+      "قوة",
+      "كتلة",
+      "تسارع"
+    ],
+    "page": "physics.html"
+  },
+  {
+    "id": "electricity",
+    "title": "حاسبة الكهرباء",
+    "description": "V I R P",
+    "category": "physics",
+    "icon": "⚡",
+    "keywords": [
+      "V",
+      "I",
+      "R",
+      "P"
+    ],
+    "page": "physics.html"
+  },
+  {
+    "id": "study-plan",
+    "title": "خطة الدراسة",
+    "description": "خطة يومية أسبوعية",
+    "category": "study",
+    "icon": "📅",
+    "keywords": [
+      "خطة",
+      "يومية",
+      "أسبوعية"
+    ],
+    "page": "study.html"
+  },
+  {
+    "id": "weakness",
+    "title": "ضعفي الدراسي",
+    "description": "وحدة درس أولوية",
+    "category": "study",
+    "icon": "🧠",
+    "keywords": [
+      "وحدة",
+      "درس",
+      "أولوية"
+    ],
+    "page": "study.html"
+  },
+  {
+    "id": "self-test",
+    "title": "اختبر نفسك",
+    "description": "اختبار أسئلة",
+    "category": "tests",
+    "icon": "📝",
+    "keywords": [
+      "اختبار",
+      "أسئلة"
+    ],
+    "page": "tests.html"
+  },
+  {
+    "id": "pomodoro",
+    "title": "Pomodoro",
+    "description": "تركيز واستراحة",
+    "category": "productivity",
+    "icon": "🍅",
+    "keywords": [
+      "تركيز",
+      "واستراحة"
+    ],
+    "page": "productivity.html"
+  },
+  {
+    "id": "stopwatch",
+    "title": "ساعة الإيقاف",
+    "description": "start pause lap",
+    "category": "productivity",
+    "icon": "⏱️",
+    "keywords": [
+      "start",
+      "pause",
+      "lap"
+    ],
+    "page": "productivity.html"
+  },
+  {
+    "id": "countdown",
+    "title": "العد التنازلي",
+    "description": "موعد",
+    "category": "productivity",
+    "icon": "⏳",
+    "keywords": [
+      "موعد"
+    ],
+    "page": "productivity.html"
+  },
+  {
+    "id": "tasks",
+    "title": "قائمة المهام",
+    "description": "مهام",
+    "category": "productivity",
+    "icon": "✅",
+    "keywords": [
+      "مهام"
+    ],
+    "page": "productivity.html"
+  },
+  {
+    "id": "notes",
+    "title": "الملاحظات",
+    "description": "ملاحظات",
+    "category": "study",
+    "icon": "🗒️",
+    "keywords": [
+      "ملاحظات"
+    ],
+    "page": "study.html"
+  },
+  {
+    "id": "word-counter",
+    "title": "عداد الكلمات",
+    "description": "كلمات أحرف جمل",
+    "category": "text-tools",
+    "icon": "🔤",
+    "keywords": [
+      "كلمات",
+      "أحرف",
+      "جمل"
+    ],
+    "page": "text-tools.html"
+  },
+  {
+    "id": "clean-text",
+    "title": "تنظيف النص",
+    "description": "مسافات أسطر",
+    "category": "text-tools",
+    "icon": "🧹",
+    "keywords": [
+      "مسافات",
+      "أسطر"
+    ],
+    "page": "text-tools.html"
+  },
+  {
+    "id": "unit-converter",
+    "title": "محول الوحدات",
+    "description": "طول كتلة زمن",
+    "category": "converters",
+    "icon": "📐",
+    "keywords": [
+      "طول",
+      "كتلة",
+      "زمن"
+    ],
+    "page": "converters.html"
+  },
+  {
+    "id": "temperature",
+    "title": "محول الحرارة",
+    "description": "C F K",
+    "category": "converters",
+    "icon": "🌡️",
+    "keywords": [
+      "C",
+      "F",
+      "K"
+    ],
+    "page": "converters.html"
+  },
+  {
+    "id": "speed-converter",
+    "title": "محول السرعة",
+    "description": "kmh ms mph",
+    "category": "converters",
+    "icon": "🏎️",
+    "keywords": [
+      "kmh",
+      "ms",
+      "mph"
+    ],
+    "page": "converters.html"
+  },
+  {
+    "id": "test-generator",
+    "title": "مولد اختبار",
+    "description": "بنك أسئلة",
+    "category": "tests",
+    "icon": "🧪",
+    "keywords": [
+      "بنك",
+      "أسئلة"
+    ],
+    "page": "tests.html"
+  },
+  {
+    "id": "random-picker",
+    "title": "اختيار عشوائي",
+    "description": "عشوائي",
+    "category": "smart-tools",
+    "icon": "🎲",
+    "keywords": [
+      "عشوائي"
+    ],
+    "page": "smart-tools.html"
+  },
+  {
+    "id": "days-left",
+    "title": "الأيام المتبقية",
+    "description": "امتحان",
+    "category": "smart-tools",
+    "icon": "📆",
+    "keywords": [
+      "امتحان"
+    ],
+    "page": "smart-tools.html"
+  },
+  {
+    "id": "statistics",
+    "title": "الإحصاء",
+    "description": "متوسط وسيط منوال",
+    "category": "smart-tools",
+    "icon": "📈",
+    "keywords": [
+      "متوسط",
+      "وسيط",
+      "منوال"
+    ],
+    "page": "smart-tools.html"
+  }
+]
