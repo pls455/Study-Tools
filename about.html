@@ -1,3 +1,557 @@
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Study Tools - أدوات الطالب"><title>حول الموقع | Study Tools</title><link rel="stylesheet" href="css/style.css"></head><body>
-<nav class=nav><div class="container navin"><a class=logo href=index.html><span class=logoMark>ST</span>Study Tools</a><div class=links><a href=index.html>الرئيسية</a><a href=tools.html>الأدوات</a><a href=favorites.html>المفضلة</a><a href=about.html>حول الموقع</a></div><div class=actions><button class=icon id=theme>🌙</button><button class="icon hamb" id=hamb>☰</button></div></div><div class="mobile container" id=mobile><a href=index.html>الرئيسية</a><a href=tools.html>الأدوات</a><a href=favorites.html>المفضلة</a><a href=about.html>حول الموقع</a></div></nav>
-<main class=page><div class=container><div class=box><h1>حول Study Tools</h1><p>Study Tools منصة أدوات تعليمية مجانية تساعد الطلاب على الدراسة والحساب والتنظيم باستخدام أدوات بسيطة وسريعة تعمل مباشرة من المتصفح.</p><div class=fields><div><h3>بدون تسجيل</h3><p class=muted>لا تحتاج حسابًا.</p></div><div><h3>بدون قاعدة بيانات</h3><p class=muted>LocalStorage فقط عند الحاجة.</p></div></div><p class=muted>الأدوات التي تحتاج API مستقبلًا لا تحتوي مفاتيح سرية داخل Frontend.</p></div></div></main><footer class=footer><div class="container footerGrid"><div><h3>Study Tools</h3><p>كل أدواتك الدراسية في مكان واحد.</p></div><div><b>روابط</b><a href=tools.html>الأدوات</a><a href=favorites.html>المفضلة</a><a href=about.html>حول الموقع</a></div><div><b>تصنيفات</b><a href=calculators.html>الحاسبات</a><a href=math.html>الرياضيات</a><a href=physics.html>الفيزياء</a><a href=study.html>الدراسة</a></div></div><div class=container>© 2026 Study Tools</div></footer><div id=toast class=toast></div><script src="js/app.js"></script></body></html>
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="تعرف على Study Tools - منصة أدوات الطالب المجانية"
+  >
+
+  <title>حول الموقع | Study Tools</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+
+  <div class="container navin">
+
+    <a class="logo" href="index.html">
+      <span class="logoMark">ST</span>
+      Study Tools
+    </a>
+
+    <div class="links">
+      <a href="index.html">الرئيسية</a>
+      <a href="tools.html">الأدوات</a>
+      <a href="favorites.html">المفضلة</a>
+      <a href="about.html">حول الموقع</a>
+    </div>
+
+    <div class="actions">
+      <button class="icon" id="theme" aria-label="تغيير المظهر">
+        🌙
+      </button>
+
+      <button class="icon hamb" id="hamb" aria-label="القائمة">
+        ☰
+      </button>
+    </div>
+
+  </div>
+
+  <div class="mobile container" id="mobile">
+    <a href="index.html">الرئيسية</a>
+    <a href="tools.html">الأدوات</a>
+    <a href="favorites.html">المفضلة</a>
+    <a href="about.html">حول الموقع</a>
+  </div>
+
+</nav>
+
+
+<main>
+
+  <!-- Hero -->
+
+  <section class="hero">
+
+    <div class="container heroGrid">
+
+      <div class="reveal">
+
+        <div class="eyebrow">
+          STUDY TOOLS · أدوات الطالب
+        </div>
+
+        <h1>
+          منصة بسيطة
+          <span class="gradient">
+            صُممت للطلاب
+          </span>
+        </h1>
+
+        <p>
+          Study Tools تجمع مجموعة من الأدوات التعليمية
+          والحاسبات وأدوات الدراسة والإنتاجية في مكان واحد،
+          لتقليل الوقت الضائع بين المواقع والتطبيقات.
+        </p>
+
+        <div class="heroBtns">
+
+          <a
+            class="btn primary"
+            href="tools.html"
+          >
+            استكشف الأدوات
+          </a>
+
+          <a
+            class="btn"
+            href="index.html"
+          >
+            الرئيسية
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="art reveal">
+
+        <div class="orb"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Stats -->
+
+  <section>
+
+    <div class="container">
+
+      <div class="head reveal">
+
+        <div>
+
+          <h2>
+            لماذا Study Tools؟
+          </h2>
+
+          <p class="muted">
+            لأن الطالب عنده ما يكفيه من فتح 17 تبويبًا
+            حتى يحسب نسبة مئوية.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="grid">
+
+        <div class="card reveal">
+
+          <div class="iconBig">
+            ⚡
+          </div>
+
+          <h3>
+            سريع
+          </h3>
+
+          <p>
+            الأدوات تعمل مباشرة من المتصفح
+            بدون خطوات معقدة.
+          </p>
+
+        </div>
+
+
+        <div class="card reveal">
+
+          <div class="iconBig">
+            🔒
+          </div>
+
+          <h3>
+            خصوصية
+          </h3>
+
+          <p>
+            الأدوات المحلية لا تحتاج إلى
+            إرسال بياناتك إلى خادم خارجي.
+          </p>
+
+        </div>
+
+
+        <div class="card reveal">
+
+          <div class="iconBig">
+            💻
+          </div>
+
+          <h3>
+            بدون تثبيت
+          </h3>
+
+          <p>
+            افتح الموقع من الهاتف أو الكمبيوتر
+            وابدأ باستخدام الأدوات.
+          </p>
+
+        </div>
+
+
+        <div class="card reveal">
+
+          <div class="iconBig">
+            🆓
+          </div>
+
+          <h3>
+            مجاني
+          </h3>
+
+          <p>
+            الهدف هو توفير أدوات دراسية
+            مفيدة وسهلة الوصول للطلاب.
+          </p>
+
+        </div>
+
+
+        <div class="card reveal">
+
+          <div class="iconBig">
+            📱
+          </div>
+
+          <h3>
+            متجاوب
+          </h3>
+
+          <p>
+            الواجهة مصممة للعمل على الهواتف
+            والأجهزة اللوحية وأجهزة الكمبيوتر.
+          </p>
+
+        </div>
+
+
+        <div class="card reveal">
+
+          <div class="iconBig">
+            🧩
+          </div>
+
+          <h3>
+            أدوات متعددة
+          </h3>
+
+          <p>
+            حاسبات، رياضيات، فيزياء، دراسة،
+            إنتاجية، نصوص وتحويلات وغيرها.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- How it works -->
+
+  <section>
+
+    <div class="container">
+
+      <div class="head reveal">
+
+        <div>
+
+          <h2>
+            كيف تستخدم الموقع؟
+          </h2>
+
+          <p class="muted">
+            ثلاث خطوات، لأننا لسنا بحاجة إلى دورة تدريبية
+            لاستخدام آلة حاسبة.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="grid">
+
+        <div class="card reveal">
+
+          <span class="tag">
+            01
+          </span>
+
+          <h3>
+            اختر القسم
+          </h3>
+
+          <p>
+            ادخل إلى القسم الذي يناسب احتياجك الدراسي.
+          </p>
+
+        </div>
+
+
+        <div class="card reveal">
+
+          <span class="tag">
+            02
+          </span>
+
+          <h3>
+            اختر الأداة
+          </h3>
+
+          <p>
+            اختر الأداة التي تريد استخدامها.
+          </p>
+
+        </div>
+
+
+        <div class="card reveal">
+
+          <span class="tag">
+            03
+          </span>
+
+          <h3>
+            ابدأ
+          </h3>
+
+          <p>
+            استخدم الأداة مباشرة من المتصفح.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Technology -->
+
+  <section>
+
+    <div class="container">
+
+      <div class="box reveal">
+
+        <div class="head">
+
+          <div>
+
+            <h2>
+              كيف تم بناء Study Tools؟
+            </h2>
+
+            <p class="muted">
+              الموقع مصمم ليكون خفيفًا وسهل الاستضافة.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="fields">
+
+          <div>
+
+            <h3>
+              🌐 Frontend
+            </h3>
+
+            <p class="muted">
+              HTML وCSS وJavaScript لبناء الواجهة
+              وتشغيل الأدوات مباشرة داخل المتصفح.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <h3>
+              💾 التخزين المحلي
+            </h3>
+
+            <p class="muted">
+              بعض الوظائف يمكنها استخدام LocalStorage
+              لحفظ البيانات على جهاز المستخدم.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <h3>
+              🚀 GitHub Pages
+            </h3>
+
+            <p class="muted">
+              المشروع مناسب للاستضافة كصفحة ثابتة
+              بدون الحاجة إلى خادم Backend.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <h3>
+              🔐 بدون مفاتيح سرية
+            </h3>
+
+            <p class="muted">
+              لا يتم وضع مفاتيح API سرية داخل
+              ملفات Frontend.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CTA -->
+
+  <section>
+
+    <div class="container">
+
+      <div
+        class="box reveal"
+        style="text-align:center;padding:45px 25px;"
+      >
+
+        <h2>
+          جاهز للدراسة؟
+        </h2>
+
+        <p class="muted">
+          كل الأدوات مرتبة أمامك في مكان واحد.
+        </p>
+
+        <div
+          class="heroBtns"
+          style="justify-content:center;"
+        >
+
+          <a
+            class="btn primary"
+            href="tools.html"
+          >
+            استكشف الأدوات
+          </a>
+
+          <a
+            class="btn"
+            href="index.html"
+          >
+            العودة للرئيسية
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer class="footer">
+
+  <div class="container footerGrid">
+
+    <div>
+
+      <h3>
+        Study Tools
+      </h3>
+
+      <p>
+        كل أدواتك الدراسية في مكان واحد.
+      </p>
+
+    </div>
+
+
+    <div>
+
+      <b>
+        روابط
+      </b>
+
+      <a href="tools.html">
+        الأدوات
+      </a>
+
+      <a href="favorites.html">
+        المفضلة
+      </a>
+
+      <a href="about.html">
+        حول الموقع
+      </a>
+
+    </div>
+
+
+    <div>
+
+      <b>
+        تصنيفات
+      </b>
+
+      <a href="calculators.html">
+        الحاسبات
+      </a>
+
+      <a href="math.html">
+        الرياضيات
+      </a>
+
+      <a href="physics.html">
+        الفيزياء
+      </a>
+
+      <a href="study.html">
+        الدراسة
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="container">
+    © 2026 Study Tools
+  </div>
+
+</footer>
+
+
+<div id="toast" class="toast"></div>
+
+<script src="js/app.js"></script>
+
+</body>
+  </html>
